@@ -1,0 +1,37 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# AI / LLM
+anthropic==0.40.0
+langgraph==0.2.56
+langchain==0.3.9
+langchain-anthropic==0.3.0
+langchain-community==0.3.9
+
+# HuggingFace
+transformers==4.47.1
+torch==2.5.1
+torchvision==0.20.1
+Pillow==11.0.0
+huggingface-hub==0.26.5
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+psycopg2-binary==2.9.10
+pgvector==0.3.6
+
+# Embeddings
+sentence-transformers==3.3.1
+
+# HTTP / utilities
+httpx==0.28.0
+python-dotenv==1.0.1
+pydantic==2.10.2
+pydantic-settings==2.6.1
+
+# Eval
+ragas==0.2.6
+datasets==3.1.0

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tc_001",
+    "hf_label": "Tomato___Early_blight",
+    "crop": "Tomato",
+    "condition": "Early blight",
+    "expected_keywords": ["Alternaria", "Mancozeb", "fungicide", "concentric", "rotation"],
+    "expected_severity": "medium",
+    "description": "Classic early blight on older tomato leaves"
+  },
+  {
+    "id": "tc_002",
+    "hf_label": "Tomato___Late_blight",
+    "crop": "Tomato",
+    "condition": "Late blight",
+    "expected_keywords": ["Phytophthora", "Metalaxyl", "Ridomil", "humid", "spray"],
+    "expected_severity": "critical",
+    "description": "Late blight in wet season conditions"
+  },
+  {
+    "id": "tc_003",
+    "hf_label": "Tomato___healthy",
+    "crop": "Tomato",
+    "condition": "Healthy",
+    "expected_keywords": ["healthy", "no disease", "normal", "monitor"],
+    "expected_severity": "low",
+    "description": "Healthy tomato leaf — should not trigger alarm"
+  },
+  {
+    "id": "tc_004",
+    "hf_label": "Wheat___Powdery_mildew",
+    "crop": "Wheat",
+    "condition": "Powdery Mildew",
+    "expected_keywords": ["Propiconazole", "Blumeria", "white", "powdery", "resistant"],
+    "expected_severity": "medium",
+    "description": "Powdery mildew on wheat flag leaf"
+  },
+  {
+    "id": "tc_005",
+    "hf_label": "Rice___blast",
+    "crop": "Rice",
+    "condition": "Blast",
+    "expected_keywords": ["Tricyclazole", "Magnaporthe", "lesion", "neck", "panicle"],
+    "expected_severity": "critical",
+    "description": "Rice blast at tillering stage"
+  },
+  {
+    "id": "tc_006",
+    "hf_label": "Corn_(maize)___Northern_Leaf_Blight",
+    "crop": "Maize",
+    "condition": "Northern Leaf Blight",
+    "expected_keywords": ["Exserohilum", "Propiconazole", "elliptical", "lesion", "rotation"],
+    "expected_severity": "medium",
+    "description": "NLB on maize near tasseling"
+  }
+]

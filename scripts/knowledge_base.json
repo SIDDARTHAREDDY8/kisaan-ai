@@ -1,0 +1,152 @@
+[
+  {
+    "disease_name": "Early Blight",
+    "crop": "Tomato",
+    "symptoms": "Dark brown to black spots with concentric rings (target-board pattern) on older leaves. Yellowing around spots, premature leaf drop.",
+    "cause": "Fungus Alternaria solani; favored by warm humid conditions and wet foliage.",
+    "treatment": "Apply Mancozeb 75% WP @ 2.5 g/liter or Chlorothalonil 75% WP @ 2 g/liter every 7-10 days. Remove and destroy infected leaves. Avoid overhead irrigation.",
+    "prevention": "Use disease-free certified seeds. Maintain plant spacing for air circulation. Rotate crops with non-solanaceous crops for 2-3 years. Mulch to reduce soil splash.",
+    "severity": "medium",
+    "source": "ICAR Plant Disease Management Guide"
+  },
+  {
+    "disease_name": "Late Blight",
+    "crop": "Tomato",
+    "symptoms": "Water-soaked gray-green lesions on leaves, turning brown-black. White mold on undersides in humid conditions. Fruit shows firm brown lesions.",
+    "cause": "Oomycete Phytophthora infestans; spreads rapidly in cool wet weather (15-20°C, >90% humidity).",
+    "treatment": "Apply Metalaxyl + Mancozeb (Ridomil Gold) @ 2.5 g/liter immediately. Switch to Cymoxanil + Mancozeb if weather stays wet. Spray every 5-7 days. Remove severely infected plants.",
+    "prevention": "Plant resistant varieties (Arka Rakshak, Arka Samrat). Avoid overhead watering. Plant on raised beds for drainage. Monitor weather forecasts for blight-conducive conditions.",
+    "severity": "critical",
+    "source": "TNAU Agritech Plant Disease Portal"
+  },
+  {
+    "disease_name": "Leaf Curl",
+    "crop": "Tomato",
+    "symptoms": "Upward or downward curling of leaves, purple discoloration, stunted growth, reduced fruit set. New leaves appear small and crinkled.",
+    "cause": "Tomato Leaf Curl Virus (ToLCV) transmitted by whitefly (Bemisia tabaci).",
+    "treatment": "No cure for infected plants. Control whitefly vector with Imidacloprid 17.8% SL @ 0.5 ml/liter or Thiamethoxam 25% WG @ 0.3 g/liter. Remove and destroy infected plants to prevent spread.",
+    "prevention": "Use virus-free seedlings. Install yellow sticky traps (10-12 per acre). Use reflective mulches to repel whiteflies. Plant barrier crops (maize/sorghum) around the field.",
+    "severity": "high",
+    "source": "ICAR-IIHR Tomato Production Guide"
+  },
+  {
+    "disease_name": "Bacterial Canker",
+    "crop": "Tomato",
+    "symptoms": "Wilting of leaf margins starting from lower leaves, brown streaks inside stem when cut, bird's-eye spots on fruit (white halo with dark center).",
+    "cause": "Bacteria Clavibacter michiganensis subsp. michiganensis; spread through infected seeds and wounds.",
+    "treatment": "No effective chemical cure. Remove and burn infected plants immediately. Drench soil with Copper Oxychloride 50% WP @ 3 g/liter. Disinfect tools with 1% bleach solution.",
+    "prevention": "Use certified disease-free seeds. Treat seeds with hot water (52°C for 25 minutes). Avoid working in wet fields. Practice 3-year crop rotation.",
+    "severity": "high",
+    "source": "TNAU Plant Pathology Handbook"
+  },
+  {
+    "disease_name": "Powdery Mildew",
+    "crop": "Wheat",
+    "symptoms": "White powdery coating on leaves and stems, starting from lower leaves. Infected leaves turn yellow then brown and die.",
+    "cause": "Fungus Blumeria graminis f. sp. tritici; thrives in mild temperatures (15-22°C) with low humidity paradoxically.",
+    "treatment": "Apply Propiconazole 25% EC @ 1 ml/liter or Tebuconazole 25.9% EC @ 1 ml/liter at first sign. Repeat after 14 days if needed.",
+    "prevention": "Grow resistant varieties (PBW 343, HD 2967). Maintain balanced nitrogen — excess N increases susceptibility. Avoid late sowing.",
+    "severity": "medium",
+    "source": "ICAR-IIWBR Wheat Disease Management"
+  },
+  {
+    "disease_name": "Yellow Rust",
+    "crop": "Wheat",
+    "symptoms": "Yellow-orange pustules arranged in stripes along leaf veins, giving a striped appearance. Severely infected fields appear yellow from distance.",
+    "cause": "Fungus Puccinia striiformis; spreads via wind-blown spores; favors cool moist conditions (10-15°C).",
+    "treatment": "Apply Propiconazole 25% EC @ 1 ml/liter immediately. Triadimefon 25% WP @ 1 g/liter as alternative. Early intervention critical — disease can spread across entire field in days.",
+    "prevention": "Grow resistant varieties (HD 3086, GW 496). Timely sowing (Oct 15 - Nov 15 in North India). Monitor from tillering stage onward.",
+    "severity": "critical",
+    "source": "ICAR-IIWBR Yellow Rust Bulletin"
+  },
+  {
+    "disease_name": "Blast",
+    "crop": "Rice",
+    "symptoms": "Diamond-shaped lesions with gray centers and brown borders on leaves. Neck rot causes panicle to break at node — called neck blast. White or partially filled grains.",
+    "cause": "Fungus Magnaporthe oryzae; explosively spreads in warm humid conditions with night temperatures 22-28°C.",
+    "treatment": "Apply Tricyclazole 75% WP @ 0.6 g/liter or Isoprothiolane 40% EC @ 1.5 ml/liter. Spray at tillering and panicle initiation stages. Drain fields to reduce humidity.",
+    "prevention": "Use blast-resistant varieties (Pusa Basmati 1637, IR 64). Balanced NPK — avoid excess nitrogen. Seed treatment with Carbendazim @ 2 g/kg seed before sowing.",
+    "severity": "critical",
+    "source": "ICAR-NRRI Rice Blast Management Guide"
+  },
+  {
+    "disease_name": "Brown Spot",
+    "crop": "Rice",
+    "symptoms": "Circular to oval dark brown spots with gray-white centers on leaves. Infected spikelets show dark brown discoloration — causes grain discoloration and quality loss.",
+    "cause": "Fungus Helminthosporium oryzae; associated with nutrient deficiency (potassium) and drought stress.",
+    "treatment": "Apply Mancozeb 75% WP @ 2.5 g/liter or Edifenphos 50% EC @ 1 ml/liter. Also apply potassium fertilizer (MOP @ 40 kg/acre) to correct deficiency.",
+    "prevention": "Adequate potassium application. Seed treatment with Captan or Thiram @ 2.5 g/kg. Maintain proper water management — avoid drought stress.",
+    "severity": "medium",
+    "source": "TNAU Rice Production Technology"
+  },
+  {
+    "disease_name": "Downy Mildew",
+    "crop": "Maize",
+    "symptoms": "White downy growth on lower leaf surfaces, yellow striping on upper surface. Systemic infection causes stunting, excessive tillering, and malformed cobs.",
+    "cause": "Oomycete Peronosclerospora sorghi or P. sacchari; seed and soil-borne; spreads via rain splash.",
+    "treatment": "No effective foliar treatment once systemic. Remove and destroy infected plants. For seedlings: spray Metalaxyl + Mancozeb @ 2.5 g/liter at 10-day intervals.",
+    "prevention": "Use tolerant/resistant hybrids (HQPM 1, Vivek Hybrid 9). Seed treatment with Metalaxyl 35% WS @ 6 g/kg seed. Avoid continuously growing maize in same field.",
+    "severity": "high",
+    "source": "ICAR-IIMR Maize Disease Compendium"
+  },
+  {
+    "disease_name": "Northern Leaf Blight",
+    "crop": "Maize",
+    "symptoms": "Long elliptical gray-green to tan lesions (5-15 cm) running parallel to leaf veins. Entire leaves may die in severe cases, reducing photosynthesis.",
+    "cause": "Fungus Exserohilum turcicum; favored by moderate temperatures (18-27°C) and prolonged leaf wetness.",
+    "treatment": "Apply Propiconazole 25% EC @ 1 ml/liter or Mancozeb 75% WP @ 2.5 g/liter at VT (tasseling) stage if >50% of plants show symptoms on top 3 leaves.",
+    "prevention": "Grow resistant hybrids. Crop rotation with non-grass crops. Bury or remove crop residue after harvest. Avoid dense planting.",
+    "severity": "medium",
+    "source": "ICAR-IIMR Plant Pathology Team"
+  },
+  {
+    "disease_name": "Cercospora Leaf Spot",
+    "crop": "Groundnut",
+    "symptoms": "Early leaf spot: dark brown circular spots with yellow halo, white powdery spore masses on undersides. Late leaf spot: darker spots without distinct halo.",
+    "cause": "Fungi Cercospora arachidicola (early) and Phaeoisariopsis personata (late); promote defoliation reducing yield 50-70%.",
+    "treatment": "Apply Chlorothalonil 75% WP @ 2 g/liter or Mancozeb 75% WP @ 2.5 g/liter every 10-14 days from 30 days after sowing. Continue until harvest.",
+    "prevention": "Grow resistant varieties (TAG 24, ICGS 11). Crop rotation with cereals. Remove volunteer groundnut plants. Use disease-free seeds.",
+    "severity": "high",
+    "source": "ICRISAT Groundnut Disease Management"
+  },
+  {
+    "disease_name": "Anthracnose",
+    "crop": "Mango",
+    "symptoms": "Black-brown irregular lesions on leaves, flowers, and fruits. Infected flowers drop; fruit shows sunken dark spots that expand in storage. 'Tear staining' on fruit surface.",
+    "cause": "Fungus Colletotrichum gloeosporioides; primary pre-harvest disease and major post-harvest problem.",
+    "treatment": "Spray Carbendazim 50% WP @ 1 g/liter or Mancozeb 75% WP @ 2.5 g/liter at flower bud stage, full bloom, and fruit set. For post-harvest: hot water treatment (52°C for 5 min).",
+    "prevention": "Prune canopy to improve air circulation. Remove and destroy infected twigs and mummified fruits. Apply copper-based fungicide before monsoon onset.",
+    "severity": "high",
+    "source": "ICAR-CISH Mango Disease Management"
+  },
+  {
+    "disease_name": "Sooty Mold",
+    "crop": "Mango",
+    "symptoms": "Black powdery coating on leaves and fruits caused by fungal growth on honeydew secreted by scale insects, mealybugs, or hoppers.",
+    "cause": "Secondary fungal infection (Capnodium mangiferae) following infestation of sap-sucking insects.",
+    "treatment": "Control the insect vector first with Imidacloprid @ 0.5 ml/liter. Then wash leaves with water + 0.1% detergent solution. Spray starch solution which peels off sooty mold when dry.",
+    "prevention": "Apply banding (polythene + grease) on trunk to prevent hopper movement. Monitor for insect outbreaks from January onward.",
+    "severity": "low",
+    "source": "ICAR-CISH Mango IPM Guide"
+  },
+  {
+    "disease_name": "Wilt",
+    "crop": "Cotton",
+    "symptoms": "Sudden wilting of plants; brown-black discoloration of vascular tissue when stem is cut. Affected plants die rapidly. Seen in patches in the field.",
+    "cause": "Fungus Fusarium oxysporum f. sp. vasinfectum; soil-borne; persists for years. Worsened by root-knot nematode.",
+    "treatment": "No effective foliar treatment. Drench with Carbendazim 50% WP @ 1 g/liter around roots. Remove and burn wilted plants. Control nematodes with Carbofuran @ 1 kg a.i./acre.",
+    "prevention": "Grow resistant varieties (CICR improved hybrids). Seed treatment with Trichoderma viride @ 4 g/kg seed. Soil application of Trichoderma @ 2.5 kg mixed with FYM.",
+    "severity": "critical",
+    "source": "ICAR-CICR Cotton Disease Management"
+  },
+  {
+    "disease_name": "Healthy",
+    "crop": "Tomato",
+    "symptoms": "No disease symptoms. Plant shows normal green color, upright growth, and healthy fruit development.",
+    "cause": "N/A",
+    "treatment": "No treatment required. Continue regular crop management.",
+    "prevention": "Maintain balanced fertilization, proper irrigation, and regular scouting for early pest and disease detection. Apply preventive fungicide if monsoon conditions are favorable for disease.",
+    "severity": "low",
+    "source": "General Agronomy"
+  }
+]

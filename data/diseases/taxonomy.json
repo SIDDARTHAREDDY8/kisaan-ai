@@ -1,0 +1,712 @@
+{
+  "version": "1.0",
+  "description": "Indian crop disease taxonomy with regional language mappings",
+  "crops": ["tomato", "rice", "wheat", "cotton", "maize", "potato", "onion", "chilli", "groundnut", "sugarcane"],
+  "diseases": [
+    {
+      "id": "tomato_early_blight",
+      "scientific": "Alternaria solani",
+      "english": "Early Blight",
+      "crop": "tomato",
+      "severity": "medium",
+      "season": ["kharif", "rabi"],
+      "agro_zones": ["telangana", "andhra_pradesh", "maharashtra", "karnataka", "punjab", "up"],
+      "regional_names": {
+        "te": ["ఆగు మాడు తెగులు", "ఆకు మాడు", "అర్లీ బ్లైట్", "కాండం మాడు"],
+        "hi": ["अगेती झुलसा", "पत्ती झुलसा", "अर्ली ब्लाइट", "पत्ती का धब्बा"],
+        "ta": ["ஆரம்ப இலை கருகல்", "கரும்புள்ளி நோய்", "இலை கருகல்"],
+        "mr": ["आगाट करपा", "पान करपा", "अगोदरची करपा"],
+        "kn": ["ಮೊದಲ ಸುಡು ರೋಗ", "ಎಲೆ ಸುಡು", "ಆರ್ಲಿ ಬ್ಲೈಟ್"],
+        "bn": ["আগাম ধসা", "পাতা পোড়া রোগ"],
+        "pa": ["ਅਗੇਤੀ ਝੁਲਸ", "ਪੱਤੀ ਝੁਲਸ"]
+      },
+      "symptoms": {
+        "en": "Dark brown circular spots with concentric rings on lower leaves, yellowing around spots, premature leaf drop",
+        "te": "ఆకుల అడుగు భాగంలో గోలాకార నల్లని మచ్చలు, మచ్చల చుట్టూ పసుపు రంగు",
+        "hi": "नीचे की पत्तियों पर गोलाकार काले-भूरे धब्बे, धब्बों के चारों ओर पीलापन"
+      },
+      "treatment": {
+        "en": "Spray Mancozeb 75% WP @ 2.5g/L or Chlorothalonil 75% WP @ 2g/L. Remove infected leaves.",
+        "te": "మాంకోజెబ్ 75% WP @ 2.5g/L లేదా క్లోరోథాలోనిల్ 75% WP @ 2g/L పిచికారీ చేయండి",
+        "hi": "मैन्कोजेब 75% WP @ 2.5g/L या क्लोरोथैलोनिल 75% WP @ 2g/L का छिड़काव करें"
+      },
+      "prevention": {
+        "en": "Crop rotation every 3 years, avoid overhead irrigation, use resistant varieties like Arka Vikas",
+        "te": "3 సంవత్సరాలకోసారి పంట మార్పిడి, నీటిని పైనుండి పెట్టకూడదు"
+      },
+      "plantvillage_label": "Tomato___Early_blight",
+      "ipm_code": "TS-001"
+    },
+    {
+      "id": "tomato_late_blight",
+      "scientific": "Phytophthora infestans",
+      "english": "Late Blight",
+      "crop": "tomato",
+      "severity": "high",
+      "season": ["kharif", "winter"],
+      "agro_zones": ["himachal", "uttarakhand", "west_bengal", "maharashtra", "nilgiris"],
+      "regional_names": {
+        "te": ["పిందె తెగులు", "లేట్ బ్లైట్", "కాయ కుళ్ళు తెగులు", "ఆకు నల్లబడు తెగులు"],
+        "hi": ["पछेती झुलसा", "लेट ब्लाइट", "आलू-टमाटर झुलसा"],
+        "ta": ["பிற்பகுதி இலை கருகல்", "தாமதமான கருகல் நோய்"],
+        "mr": ["उशिरा करपा", "पिछाडी करपा"],
+        "kn": ["ತಡ ಸುಡು ರೋಗ", "ಫೈಟೋಫ್ಥೋರಾ ರೋಗ"],
+        "bn": ["নাবী ধসা", "পিছিয়ে পড়া ধসা রোগ"],
+        "pa": ["ਪਿਛੇਤੀ ਝੁਲਸ"]
+      },
+      "symptoms": {
+        "en": "Water-soaked lesions on leaves turning brown-black, white fungal growth on underside, fruit turns brown and rots",
+        "te": "ఆకులపై నీటి తడిసిన మచ్చలు నల్లబడతాయి, ఆకు అడుగు భాగంలో తెల్లని శిలీంధ్రం",
+        "hi": "पत्तियों पर पानी से भीगे धब्बे जो काले-भूरे हो जाते हैं, पत्ती के नीचे सफेद फफूंद"
+      },
+      "treatment": {
+        "en": "Metalaxyl + Mancozeb 72% WP @ 2.5g/L. Cymoxanil + Mancozeb for advanced infection. Destroy infected plants.",
+        "te": "మెటలాక్సిల్ + మాంకోజెబ్ 72% WP @ 2.5g/L పిచికారీ చేయండి. తీవ్రమైన సంక్రమణకు సైమోక్సానిల్",
+        "hi": "मेटालैक्सिल + मैन्कोजेब 72% WP @ 2.5g/L का छिड़काव करें"
+      },
+      "prevention": {
+        "en": "Avoid waterlogging, plant resistant varieties, maintain field hygiene, avoid late planting",
+        "te": "నీరు నిల్వ ఉండకూడదు, నిరోధక రకాలు నాటాలి"
+      },
+      "plantvillage_label": "Tomato___Late_blight",
+      "ipm_code": "TS-002"
+    },
+    {
+      "id": "tomato_leaf_curl",
+      "scientific": "Tomato Leaf Curl Virus (ToLCV)",
+      "english": "Leaf Curl Virus",
+      "crop": "tomato",
+      "severity": "high",
+      "season": ["kharif", "summer"],
+      "agro_zones": ["telangana", "andhra_pradesh", "karnataka", "tamil_nadu", "gujarat"],
+      "regional_names": {
+        "te": ["ఆకు ముడత తెగులు", "ఆకు చుట్టుకుపోవు తెగులు", "వైరస్ తెగులు", "తెల్ల దోమ తెగులు"],
+        "hi": ["पत्ती मरोड़ रोग", "पत्ती कर्ल वायरस", "सफेद मक्खी रोग"],
+        "ta": ["இலை சுருட்டை நோய்", "வைரஸ் நோய்", "வெள்ளை ஈ நோய்"],
+        "mr": ["पान गुंडाळणे रोग", "पान मुरगळणे"],
+        "kn": ["ಎಲೆ ಸುರುಳಿ ರೋಗ", "ಬಿಳಿ ನೊಣ ರೋಗ"],
+        "bn": ["পাতা কুঁকড়ানো রোগ", "ভাইরাস রোগ"],
+        "pa": ["ਪੱਤੀ ਮਰੋੜ ਰੋਗ"]
+      },
+      "symptoms": {
+        "en": "Leaves curl upward and inward, yellowing between veins, stunted plant growth, spread by whitefly",
+        "te": "ఆకులు పైకి మరియు లోపలికి చుట్టుకుపోతాయి, సిరల మధ్య పసుపు రంగు, మొక్క పెరుగుదల ఆగిపోతుంది",
+        "hi": "पत्तियाँ ऊपर और अंदर की ओर मुड़ जाती हैं, नसों के बीच पीलापन, पौधे की बढ़वार रुक जाती है"
+      },
+      "treatment": {
+        "en": "No cure for virus. Control whitefly vector: Imidacloprid 17.8% SL @ 0.3ml/L or Thiamethoxam 25% WG @ 0.3g/L. Remove infected plants.",
+        "te": "వైరస్‌కు నివారణ లేదు. తెల్ల దోమను నివారించండి: ఇమిడాక్లోప్రిడ్ 17.8% SL @ 0.3ml/L",
+        "hi": "वायरस का कोई इलाज नहीं। सफेद मक्खी नियंत्रण: इमिडाक्लोप्रिड 17.8% SL @ 0.3ml/L"
+      },
+      "prevention": {
+        "en": "Use virus-resistant varieties (Arka Rakshak, Pusa Hybrid-4), silver mulch to repel whitefly, remove infected plants immediately",
+        "te": "నిరోధక రకాలు (అర్కా రక్షక్) వాడండి, వెండి రంగు మల్చ్ వాడండి"
+      },
+      "plantvillage_label": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "ipm_code": "TS-003"
+    },
+    {
+      "id": "rice_blast",
+      "scientific": "Magnaporthe oryzae",
+      "english": "Rice Blast",
+      "crop": "rice",
+      "severity": "high",
+      "season": ["kharif"],
+      "agro_zones": ["west_bengal", "odisha", "chhattisgarh", "telangana", "andhra_pradesh", "assam"],
+      "regional_names": {
+        "te": ["వరి బ్లాస్ట్ తెగులు", "మెడ విరుపు తెగులు", "ఆకు బ్లాస్ట్"],
+        "hi": ["धान का झोंका रोग", "ब्लास्ट रोग", "गर्दन तोड़ रोग"],
+        "ta": ["நெல் தீ நோய்", "கதிர் நோய்", "பிளாஸ்ட் நோய்"],
+        "mr": ["भात करपा", "मान मोडी रोग"],
+        "kn": ["ಭತ್ತದ ಬ್ಲಾಸ್ಟ್", "ಕತ್ತು ಮುರಿ ರೋಗ"],
+        "bn": ["ধানের ব্লাস্ট রোগ", "গলা পচা রোগ"],
+        "pa": ["ਝੋਨੇ ਦਾ ਝੁਲਸ ਰੋਗ"]
+      },
+      "symptoms": {
+        "en": "Diamond-shaped lesions with grey centre and brown border on leaves. Neck rot causes panicle to break and fall (deadheart).",
+        "te": "ఆకులపై వజ్రాకారపు మచ్చలు - మధ్యలో బూడిద రంగు, అంచులు గోధుమ రంగు. మెడ విరిగి కంకి వంగిపోతుంది",
+        "hi": "पत्तियों पर हीरे के आकार के धब्बे - बीच में भूरे और किनारे गहरे। गर्दन टूटने से बाली झुक जाती है"
+      },
+      "treatment": {
+        "en": "Tricyclazole 75% WP @ 0.6g/L or Isoprothiolane 40% EC @ 1.5ml/L. Spray at tillering and panicle initiation stage.",
+        "te": "ట్రైసైక్లాజోల్ 75% WP @ 0.6g/L లేదా ఐసోప్రోథియోలేన్ 40% EC @ 1.5ml/L. పిలక దశలో పిచికారీ చేయండి",
+        "hi": "ट्राइसाइक्लाजोल 75% WP @ 0.6g/L या इसोप्रोथियोलेन 40% EC @ 1.5ml/L का छिड़काव करें"
+      },
+      "prevention": {
+        "en": "Resistant varieties (Swarna Sub1, MTU-1010), balanced nitrogen fertilization, avoid dense planting",
+        "te": "నిరోధక రకాలు (స్వర్ణ సబ్1), సమతుల్య నత్రజని ఎరువు"
+      },
+      "plantvillage_label": "Rice___Blast",
+      "local_label": "Rice___Leaf_Blast",
+      "ipm_code": "RS-001"
+    },
+    {
+      "id": "rice_bacterial_blight",
+      "scientific": "Xanthomonas oryzae pv. oryzae",
+      "english": "Bacterial Leaf Blight",
+      "crop": "rice",
+      "severity": "high",
+      "season": ["kharif"],
+      "agro_zones": ["punjab", "haryana", "up", "west_bengal", "andhra_pradesh", "telangana"],
+      "regional_names": {
+        "te": ["వరి బాక్టీరియా ఆకు ముడత", "కంకి కాలు తెగులు", "ఆకు కాలు తెగులు"],
+        "hi": ["धान का जीवाणु अंगमारी", "बैक्टीरियल लीफ ब्लाइट", "पत्ती झुलसन"],
+        "ta": ["நெல் பாக்டீரியல் இலை கருகல்", "கிரீம் நிற நோய்"],
+        "mr": ["भात जिवाणू करपा"],
+        "kn": ["ಭತ್ತದ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಎಲೆ ಉರಿ"],
+        "bn": ["ধানের ব্যাকটেরিয়াল পাতা ঝলসা"],
+        "pa": ["ਝੋਨੇ ਦਾ ਜੀਵਾਣੂ ਪੱਤੀ ਝੁਲਸ"]
+      },
+      "symptoms": {
+        "en": "Water-soaked yellow stripes along leaf margins starting from tip, turning straw-yellow. Milky bacterial ooze in morning.",
+        "te": "ఆకు అంచుల వెంట నీటి తడిసిన పసుపు చారలు, ఉదయం తెల్లని బాక్టీరియా స్రావం",
+        "hi": "पत्ती के किनारों पर पानी जैसे पीले धारियाँ, सुबह के समय दूधिया जीवाणु रिसाव"
+      },
+      "treatment": {
+        "en": "Copper oxychloride 50% WP @ 3g/L + Streptomycin sulfate 90% SP @ 0.5g/L. Drain water from field.",
+        "te": "కాపర్ ఆక్సీక్లోరైడ్ 50% WP @ 3g/L + స్ట్రెప్టోమైసిన్ సల్ఫేట్ @ 0.5g/L",
+        "hi": "कॉपर ऑक्सीक्लोराइड 50% WP @ 3g/L + स्ट्रेप्टोमाइसिन सल्फेट @ 0.5g/L"
+      },
+      "prevention": {
+        "en": "Resistant varieties (IR-64, Samba Mahsuri), avoid excess nitrogen, drain stagnant water",
+        "te": "నిరోధక రకాలు (IR-64, సాంబ మహసూరి), అధిక నత్రజని వేయకూడదు"
+      },
+      "plantvillage_label": "Rice___Bacterial_blight",
+      "ipm_code": "RS-002"
+    },
+    {
+      "id": "wheat_rust_yellow",
+      "scientific": "Puccinia striiformis",
+      "english": "Yellow Stripe Rust",
+      "crop": "wheat",
+      "severity": "high",
+      "season": ["rabi"],
+      "agro_zones": ["punjab", "haryana", "up", "himachal", "uttarakhand", "bihar"],
+      "regional_names": {
+        "te": ["గోధుమ పసుపు తుప్పు తెగులు", "యెల్లో రస్ట్"],
+        "hi": ["गेहूँ का पीला रतुआ", "पीली धारी झुलसन", "पट्टी रतुआ"],
+        "ta": ["கோதுமை மஞ்சள் துரு நோய்"],
+        "mr": ["गहू पिवळा गंज", "पट्टा गंज"],
+        "kn": ["ಗೋಧಿ ಹಳದಿ ತುಕ್ಕು ರೋಗ"],
+        "bn": ["গমের হলুদ রাস্ট"],
+        "pa": ["ਕਣਕ ਦਾ ਪੀਲਾ ਰਤੁਆ", "ਧਾਰੀਦਾਰ ਰਤੁਆ"]
+      },
+      "symptoms": {
+        "en": "Yellow-orange powdery pustules in stripes along leaf veins. Severely infected fields appear yellow from distance.",
+        "te": "ఆకు నరాల వెంట పసుపు-నారింజ రంగు పొడి పుటికలు చారల రూపంలో. తీవ్ర సంక్రమణలో పొలం పసుపు రంగుగా కనిపిస్తుంది",
+        "hi": "पत्ती की नसों के साथ पीले-नारंगी पाउडर जैसे धब्बे धारियों में। तीव्र संक्रमण में खेत दूर से पीला दिखता है"
+      },
+      "treatment": {
+        "en": "Propiconazole 25% EC @ 1ml/L or Tebuconazole 25.9% EC @ 1ml/L. Spray at first sign of disease.",
+        "te": "ప్రొపికోనజోల్ 25% EC @ 1ml/L లేదా టెబుకోనజోల్ 25.9% EC @ 1ml/L పిచికారీ",
+        "hi": "प्रोपिकोनाजोल 25% EC @ 1ml/L या टेबुकोनाजोल 25.9% EC @ 1ml/L का छिड़काव"
+      },
+      "prevention": {
+        "en": "Resistant varieties (HD-2967, PBW-550, WH-1105), timely sowing (Nov 1-15 in north India)",
+        "te": "నిరోధక రకాలు (HD-2967, PBW-550), సమయానికి విత్తడం"
+      },
+      "plantvillage_label": "Wheat___Yellow_rust_Stripe_rust",
+      "local_label": "Wheat___Yellow_Rust",
+      "ipm_code": "WS-001"
+    },
+    {
+      "id": "wheat_rust_brown",
+      "scientific": "Puccinia triticina",
+      "english": "Brown Leaf Rust",
+      "crop": "wheat",
+      "severity": "medium",
+      "season": ["rabi"],
+      "agro_zones": ["punjab", "haryana", "up", "rajasthan", "mp"],
+      "regional_names": {
+        "te": ["గోధుమ గోధుమ తుప్పు తెగులు", "బ్రౌన్ రస్ట్"],
+        "hi": ["गेहूँ का भूरा रतुआ", "पत्ती रतुआ", "ब्राउन रस्ट"],
+        "ta": ["கோதுமை பழுப்பு துரு"],
+        "mr": ["गहू तपकिरी गंज"],
+        "kn": ["ಗೋಧಿ ಕಂದು ತುಕ್ಕು"],
+        "bn": ["গমের বাদামি রাস্ট"],
+        "pa": ["ਕਣਕ ਦਾ ਭੂਰਾ ਰਤੁਆ"]
+      },
+      "symptoms": {
+        "en": "Circular to oval orange-brown pustules randomly scattered on upper leaf surface. Less severe than yellow rust.",
+        "te": "ఆకు పై భాగంపై యాదృచ్ఛికంగా చెదరిన గోల్-నారింజ రంగు పుటికలు",
+        "hi": "पत्ती की ऊपरी सतह पर बिखरे हुए गोल नारंगी-भूरे धब्बे"
+      },
+      "treatment": {
+        "en": "Propiconazole 25% EC @ 1ml/L. Spray at boot to heading stage.",
+        "te": "ప్రొపికోనజోల్ 25% EC @ 1ml/L పిచికారీ చేయండి",
+        "hi": "प्रोपिकोनाजोल 25% EC @ 1ml/L का छिड़काव करें"
+      },
+      "prevention": {
+        "en": "Resistant varieties, crop rotation, avoid late sowing",
+        "te": "నిరోధక రకాలు, పంట మార్పిడి"
+      },
+      "plantvillage_label": "Wheat___Brown_rust_Leaf_rust",
+      "local_label": "Wheat___Brown_Rust",
+      "ipm_code": "WS-002"
+    },
+    {
+      "id": "cotton_bollworm",
+      "scientific": "Helicoverpa armigera",
+      "english": "American Bollworm / Fruit Borer",
+      "crop": "cotton",
+      "severity": "high",
+      "season": ["kharif"],
+      "agro_zones": ["telangana", "andhra_pradesh", "maharashtra", "gujarat", "karnataka", "mp"],
+      "regional_names": {
+        "te": ["పత్తి పురుగు", "కాయ తొలచు పురుగు", "అమెరికన్ బోల్‌వార్మ్", "హెలికోవర్పా పురుగు"],
+        "hi": ["कपास का अमेरिकन बॉलवर्म", "फली छेदक", "चने की इल्ली"],
+        "ta": ["பருத்தி காய்ப் புழு", "அமெரிக்கன் பால்வார்ம்"],
+        "mr": ["कापूस बोंड अळी", "अमेरिकन बोंडअळी"],
+        "kn": ["ಹತ್ತಿ ಕಾಯಿ ಕೊರೆಯುವ ಹುಳ", "ಅಮೇರಿಕನ್ ಬೊಲ್‌ವರ್ಮ್"],
+        "bn": ["তুলার বলওয়ার্ম", "ফল ছিদ্রকারী পোকা"],
+        "pa": ["ਕਪਾਹ ਦਾ ਅਮਰੀਕਨ ਬੋਲਵਰਮ"]
+      },
+      "symptoms": {
+        "en": "Holes in bolls/fruits with frass. Larvae feed inside bolls destroying fibre. Puncture marks on green bolls.",
+        "te": "కాయలలో రంధ్రాలు, లార్వా వ్యర్థాలు కనిపిస్తాయి. పచ్చి కాయలపై గుచ్చిన గుర్తులు",
+        "hi": "टिंडों में छेद और लार्वा की विष्ठा। कच्चे टिंडों पर छेद के निशान"
+      },
+      "treatment": {
+        "en": "Emamectin benzoate 5% SG @ 0.4g/L or Chlorantraniliprole 18.5% SC @ 0.3ml/L. Install pheromone traps @ 5/acre.",
+        "te": "ఎమామెక్టిన్ బెంజోయేట్ 5% SG @ 0.4g/L లేదా క్లోరాంట్రానిలిప్రోల్ 18.5% SC @ 0.3ml/L. 5 ఎకరాలకు ఫెరోమోన్ ట్రాప్స్",
+        "hi": "इमामेक्टिन बेंजोएट 5% SG @ 0.4g/L या क्लोरेंट्रानिलिप्रोल 18.5% SC @ 0.3ml/L"
+      },
+      "prevention": {
+        "en": "Bt cotton varieties, pheromone traps, intercropping with marigold, avoid excess nitrogen",
+        "te": "Bt పత్తి రకాలు, ఫెరోమోన్ ట్రాప్స్, బంతి పూల పంటతో అంతర పంటలు"
+      },
+      "plantvillage_label": null,
+      "ipm_code": "CO-001"
+    },
+    {
+      "id": "chilli_anthracnose",
+      "scientific": "Colletotrichum capsici",
+      "english": "Anthracnose / Fruit Rot",
+      "crop": "chilli",
+      "severity": "high",
+      "season": ["kharif", "rabi"],
+      "agro_zones": ["andhra_pradesh", "telangana", "karnataka", "tamil_nadu", "odisha"],
+      "regional_names": {
+        "te": ["మిరప కాయ కుళ్ళు తెగులు", "యాంత్రాక్నోస్", "మిరప కాయ మాడు"],
+        "hi": ["मिर्च का एन्थ्रेक्नोज", "फल सड़न रोग", "मिर्च की धब्बेदार सड़न"],
+        "ta": ["மிளகாய் காய் அழுகல்", "ஆந்த்ராக்னோஸ் நோய்"],
+        "mr": ["मिरची फळ सड", "एन्थ्रॅक्नोज"],
+        "kn": ["ಮೆಣಸಿನಕಾಯಿ ಕಾಯಿ ಕೊಳೆ", "ಆಂಥ್ರಾಕ್ನೋಸ್"],
+        "bn": ["মরিচের ফল পচা রোগ"],
+        "pa": ["ਮਿਰਚ ਦਾ ਐਂਥ੍ਰੈਕਨੋਜ਼"]
+      },
+      "symptoms": {
+        "en": "Circular sunken lesions on ripe red chillies with concentric rings. Infected fruits shrivel and dry up (dieback).",
+        "te": "పక్వమైన మిరప కాయలపై గోలాకార మచ్చలు, వలయాలతో. సంక్రమించిన కాయలు ముడుచుకుపోతాయి",
+        "hi": "पकी लाल मिर्चों पर गोलाकार गड्ढे जैसे धब्बे, संक्रमित फल सिकुड़ कर सूख जाते हैं"
+      },
+      "treatment": {
+        "en": "Carbendazim 50% WP @ 1g/L or Thiophanate methyl 70% WP @ 1g/L + Mancozeb 75% WP @ 2g/L.",
+        "te": "కార్బెండాజిమ్ 50% WP @ 1g/L లేదా థయోఫనేట్ మిథైల్ 70% WP @ 1g/L + మాంకోజెబ్",
+        "hi": "कार्बेंडाजिम 50% WP @ 1g/L या थियोफेनेट मिथाइल 70% WP @ 1g/L + मैन्कोजेब"
+      },
+      "prevention": {
+        "en": "Use disease-free seeds, treat seeds with Thiram 75% WS @ 3g/kg, harvest before full ripening",
+        "te": "రోగ రహిత విత్తనాలు వాడండి, విత్తన శుద్ధి థైరామ్ 75% WS @ 3g/kg"
+      },
+      "plantvillage_label": null,
+      "ipm_code": "CH-001"
+    },
+    {
+      "id": "groundnut_tikka",
+      "scientific": "Cercospora arachidicola / Cercosporidium personatum",
+      "english": "Tikka Disease / Leaf Spot",
+      "crop": "groundnut",
+      "severity": "medium",
+      "season": ["kharif"],
+      "agro_zones": ["andhra_pradesh", "telangana", "gujarat", "rajasthan", "karnataka", "tamil_nadu"],
+      "regional_names": {
+        "te": ["వేరుశనగ తిక్కా తెగులు", "ఆకు మచ్చ తెగులు", "సర్కోస్పోరా తెగులు"],
+        "hi": ["मूंगफली का टिक्का रोग", "पत्ती धब्बा रोग", "सर्कोस्पोरा पत्ती धब्बा"],
+        "ta": ["வேர்க்கடலை திக்கா நோய்", "இலை புள்ளி நோய்"],
+        "mr": ["भुईमूग टिक्का रोग", "पान ठिपका रोग"],
+        "kn": ["ಕಡಲೆಕಾಯಿ ಟಿಕ್ಕಾ ರೋಗ", "ಎಲೆ ಚುಕ್ಕೆ ರೋಗ"],
+        "bn": ["চিনাবাদামের টিক্কা রোগ"],
+        "pa": ["ਮੂੰਗਫਲੀ ਦਾ ਟਿੱਕਾ ਰੋਗ"]
+      },
+      "symptoms": {
+        "en": "Early leaf spot: circular brown spots with yellow halo on upper surface. Late leaf spot: darker spots on lower surface. Premature defoliation.",
+        "te": "ఆరంభ మచ్చ: ఆకు పై భాగంలో పసుపు వలయంతో గోలాకార గోధుమ మచ్చలు. తీవ్రమైతే ఆకు రాలిపోతాయి",
+        "hi": "शुरुआती धब्बा: पत्ती की ऊपरी सतह पर पीले घेरे के साथ गोल भूरे धब्बे। समय से पहले पत्तियाँ झड़ना"
+      },
+      "treatment": {
+        "en": "Chlorothalonil 75% WP @ 2g/L or Mancozeb 75% WP @ 2.5g/L. Start spraying at 30-35 days after sowing.",
+        "te": "క్లోరోథాలోనిల్ 75% WP @ 2g/L లేదా మాంకోజెబ్ 75% WP @ 2.5g/L. విత్తిన 30-35 రోజులకు మొదలు పెట్టండి",
+        "hi": "क्लोरोथैलोनिल 75% WP @ 2g/L या मैन्कोजेब 75% WP @ 2.5g/L। बुवाई के 30-35 दिन बाद से छिड़काव करें"
+      },
+      "prevention": {
+        "en": "Resistant varieties (ICGS-11, TAG-24), crop rotation with cereals, seed treatment with Carbendazim",
+        "te": "నిరోధక రకాలు (ICGS-11, TAG-24), ధాన్యపు పంటలతో మార్పిడి"
+      },
+      "plantvillage_label": null,
+      "ipm_code": "GN-001"
+    },
+    {
+      "id": "maize_northern_blight",
+      "scientific": "Exserohilum turcicum",
+      "english": "Northern Corn Leaf Blight (NCLB)",
+      "crop": "maize",
+      "severity": "medium",
+      "season": ["kharif"],
+      "agro_zones": ["karnataka", "andhra_pradesh", "telangana", "bihar", "rajasthan"],
+      "regional_names": {
+        "te": ["మొక్కజొన్న ఆకు మాడు తెగులు", "నార్తర్న్ లీఫ్ బ్లైట్", "ఆకు కాలు తెగులు"],
+        "hi": ["मक्का का उत्तरी पत्ती झुलसन", "NCLB रोग", "मक्का पत्ती धब्बा"],
+        "ta": ["மக்காச்சோளம் இலை கருகல்"],
+        "mr": ["मका उत्तरी पान करपा"],
+        "kn": ["ಮೆಕ್ಕೆಜೋಳ ಎಲೆ ಸುಡು ರೋಗ"],
+        "bn": ["ভুট্টার উত্তরীয় পাতা ঝলসা"],
+        "pa": ["ਮੱਕੀ ਦਾ ਉੱਤਰੀ ਪੱਤੀ ਝੁਲਸ"]
+      },
+      "symptoms": {
+        "en": "Long elliptical grey-green to tan lesions (5-15cm) on leaves, parallel to leaf margins. Starts on lower leaves.",
+        "te": "ఆకులపై పొడవైన అండాకార బూడిద-ఆకుపచ్చ మచ్చలు (5-15 సెం.మీ.), ఆకు అంచులకు సమాంతరంగా",
+        "hi": "पत्तियों पर लंबे अंडाकार भूरे-हरे धब्बे (5-15 सेमी), पत्ती के किनारों के समानांतर"
+      },
+      "treatment": {
+        "en": "Mancozeb 75% WP @ 2.5g/L or Propiconazole 25% EC @ 1ml/L. Spray at silking stage.",
+        "te": "మాంకోజెబ్ 75% WP @ 2.5g/L లేదా ప్రొపికోనజోల్ 25% EC @ 1ml/L",
+        "hi": "मैन्कोजेब 75% WP @ 2.5g/L या प्रोपिकोनाजोल 25% EC @ 1ml/L का छिड़काव"
+      },
+      "prevention": {
+        "en": "Resistant hybrids, crop rotation, balanced fertilization, avoid dense planting",
+        "te": "నిరోధక హైబ్రిడ్లు, పంట మార్పిడి, సమతుల్య ఎరువు"
+      },
+      "plantvillage_label": "Corn_(maize)___Northern_Leaf_Blight",
+      "local_label": "Corn___Northern_Leaf_Blight",
+      "ipm_code": "MZ-001"
+    },
+    {
+      "id": "potato_late_blight",
+      "scientific": "Phytophthora infestans",
+      "english": "Late Blight",
+      "crop": "potato",
+      "severity": "high",
+      "season": ["rabi", "winter"],
+      "agro_zones": ["up", "west_bengal", "bihar", "himachal", "uttarakhand", "punjab"],
+      "regional_names": {
+        "te": ["బంగాళాదుంప ఆలస్య తెగులు", "పందిరి కుళ్ళు తెగులు"],
+        "hi": ["आलू का पछेती झुलसा", "झुलसन रोग", "अगमारी"],
+        "ta": ["உருளைக்கிழங்கு பிற்பகுதி கருகல்"],
+        "mr": ["बटाट्याचा उशिरा करपा", "कुज रोग"],
+        "kn": ["ಆಲೂ ಗೆಡ್ಡೆ ತಡ ಸುಡು ರೋಗ"],
+        "bn": ["আলুর নাবী ধসা রোগ", "আলু পচা রোগ"],
+        "pa": ["ਆਲੂ ਦੀ ਪਿਛੇਤੀ ਝੁਲਸ"]
+      },
+      "symptoms": {
+        "en": "Water-soaked dark lesions on leaves, white fungal growth on undersides, tuber rot with brown discoloration.",
+        "te": "ఆకులపై నీటి తడిసిన నల్లని మచ్చలు, ఆకు అడుగున తెల్లని శిలీంధ్రం, దుంపలు కుళ్ళుతాయి",
+        "hi": "पत्तियों पर पानी से भीगे काले धब्बे, पत्ती के नीचे सफेद फफूंद, कंद भूरे होकर सड़ते हैं"
+      },
+      "treatment": {
+        "en": "Metalaxyl-M + Mancozeb 72% WP @ 2.5g/L or Cymoxanil + Mancozeb @ 3g/L. Spray every 7-10 days.",
+        "te": "మెటలాక్సిల్-M + మాంకోజెబ్ 72% WP @ 2.5g/L. 7-10 రోజులకోసారి పిచికారీ",
+        "hi": "मेटालैक्सिल-M + मैन्कोजेब 72% WP @ 2.5g/L का छिड़काव। 7-10 दिन पर दोहराएं"
+      },
+      "prevention": {
+        "en": "Certified seed tubers, resistant varieties (Kufri Bahar, Kufri Jyoti), earthing-up, haulm destruction before harvest",
+        "te": "ధ్రువీకరించిన విత్తన దుంపలు, నిరోధక రకాలు (కుఫ్రి జ్యోతి)"
+      },
+      "plantvillage_label": "Potato___Late_blight",
+      "local_label": "Potato___Late_Blight",
+      "ipm_code": "PT-001"
+    },
+    {
+      "id": "potato_early_blight",
+      "scientific": "Alternaria solani",
+      "english": "Early Blight",
+      "crop": "potato",
+      "severity": "medium",
+      "season": ["rabi", "winter"],
+      "agro_zones": ["up", "west_bengal", "bihar", "himachal", "uttarakhand", "punjab"],
+      "regional_names": {
+        "te": ["బంగాళాదుంప ఆగు తెగులు", "పోటాటో ఆర్లీ బ్లైట్", "ఆకు మచ్చ తెగులు"],
+        "hi": ["आलू का अगेती झुलसा", "अर्ली ब्लाइट", "पत्ती धब्बा रोग"],
+        "ta": ["உருளைக்கிழங்கு ஆரம்ப கருகல்"],
+        "mr": ["बटाट्याचा आगाट करपा"],
+        "kn": ["ಆಲೂ ಆರಂಭಿಕ ಸುಡು ರೋಗ"],
+        "bn": ["আলুর আগাম ধসা রোগ"],
+        "pa": ["ਆਲੂ ਦੀ ਅਗੇਤੀ ਝੁਲਸ"]
+      },
+      "symptoms": {
+        "en": "Dark brown circular spots with concentric rings (target-board pattern) on older leaves. Yellow halo around spots. Premature defoliation starts from lower leaves.",
+        "te": "పాత ఆకులపై లక్ష్యపు బోర్డు రూపంలో గోలాకార నల్లని మచ్చలు, మచ్చల చుట్టూ పసుపు రంగు",
+        "hi": "पुरानी पत्तियों पर टारगेट बोर्ड जैसे गोलाकार धब्बे, धब्बों के चारों ओर पीला घेरा"
+      },
+      "treatment": {
+        "en": "Mancozeb 75% WP @ 2.5g/L or Chlorothalonil 75% WP @ 2g/L. Start spraying 40-45 days after planting, repeat every 10 days.",
+        "te": "మాంకోజెబ్ 75% WP @ 2.5g/L లేదా క్లోరోథాలోనిల్ 75% WP @ 2g/L. నాటిన 40-45 రోజులకు మొదలు పెట్టండి",
+        "hi": "मैन्कोजेब 75% WP @ 2.5g/L या क्लोरोथैलोनिल 75% WP @ 2g/L। रोपाई के 40-45 दिन बाद छिड़काव शुरू करें"
+      },
+      "prevention": {
+        "en": "Certified disease-free seed, crop rotation with non-solanaceous crops, destroy crop debris after harvest",
+        "te": "ధ్రువీకరించిన విత్తన దుంపలు, పంట మార్పిడి, పంట వ్యర్థాలు నాశనం చేయండి"
+      },
+      "plantvillage_label": "Potato___Early_blight",
+      "local_label": "Potato___Early_Blight",
+      "ipm_code": "PT-002"
+    },
+    {
+      "id": "rice_brown_spot",
+      "scientific": "Bipolaris oryzae",
+      "english": "Brown Spot",
+      "crop": "rice",
+      "severity": "medium",
+      "season": ["kharif"],
+      "agro_zones": ["west_bengal", "odisha", "andhra_pradesh", "telangana", "assam", "up"],
+      "regional_names": {
+        "te": ["వరి గోధుమ మచ్చ తెగులు", "బ్రౌన్ స్పాట్", "ఆకు మచ్చ తెగులు"],
+        "hi": ["धान का भूरा धब्बा", "ब्राउन स्पॉट", "पत्ती भूरा धब्बा"],
+        "ta": ["நெல் பழுப்பு புள்ளி நோய்"],
+        "mr": ["भात तपकिरी डाग रोग"],
+        "kn": ["ಭತ್ತದ ಕಂದು ಚುಕ್ಕೆ ರೋಗ"],
+        "bn": ["ধানের বাদামি দাগ রোগ"],
+        "pa": ["ਝੋਨੇ ਦਾ ਭੂਰਾ ਧੱਬਾ"]
+      },
+      "symptoms": {
+        "en": "Oval to circular dark brown spots with yellow halo on leaves and glumes. Infected grains show dark brown discoloration. Poor grain filling and chaffy grains.",
+        "te": "ఆకులపై పసుపు వలయంతో అండాకార గోధుమ మచ్చలు. సంక్రమించిన గింజలు గోధుమ రంగులో ఉంటాయి",
+        "hi": "पत्तियों पर पीले घेरे के साथ अंडाकार भूरे धब्बे। संक्रमित दाने भूरे पड़ जाते हैं, दाने पूरे नहीं भरते"
+      },
+      "treatment": {
+        "en": "Propiconazole 25% EC @ 1ml/L or Carbendazim 50% WP + Mancozeb 75% WP @ 2g/L. Apply at booting and heading stage.",
+        "te": "ప్రొపికోనజోల్ 25% EC @ 1ml/L లేదా కార్బెండాజిమ్ + మాంకోజెబ్ @ 2g/L. పూత దశలో పిచికారీ",
+        "hi": "प्रोपिकोनाजोल 25% EC @ 1ml/L या कार्बेंडाजिम + मैन्कोजेब @ 2g/L। बूटिंग और सिर निकलने की अवस्था पर छिड़काव"
+      },
+      "prevention": {
+        "en": "Balanced potassium and silicon nutrition (silica @ 500kg/ha), resistant varieties, avoid water stress",
+        "te": "పొటాషియం మరియు సిలికా పోషణ (500 కిలోలు/ఎకరా), నిరోధక రకాలు, నీటి ఒత్తిడి నివారించండి"
+      },
+      "plantvillage_label": null,
+      "local_label": "Rice___Brown_Spot",
+      "ipm_code": "RS-003"
+    },
+    {
+      "id": "rice_neck_blast",
+      "scientific": "Magnaporthe oryzae (neck infection)",
+      "english": "Neck Blast",
+      "crop": "rice",
+      "severity": "high",
+      "season": ["kharif"],
+      "agro_zones": ["west_bengal", "odisha", "chhattisgarh", "telangana", "andhra_pradesh"],
+      "regional_names": {
+        "te": ["వరి మెడ విరుపు తెగులు", "కంకి పడిపోవు తెగులు", "నెక్ బ్లాస్ట్"],
+        "hi": ["धान की गर्दन तोड़ रोग", "नेक ब्लास्ट", "बाली झुकना रोग"],
+        "ta": ["நெல் கழுத்து நோய்", "கதிர் வீழ்ச்சி நோய்"],
+        "mr": ["भात मान मोडी रोग", "नेक ब्लास्ट"],
+        "kn": ["ಭತ್ತದ ಕತ್ತು ಮುರಿ ರೋಗ"],
+        "bn": ["ধানের গলা পচা রোগ", "নেক ব্লাস্ট"],
+        "pa": ["ਝੋਨੇ ਦਾ ਗਲਾ ਟੁੱਟ ਰੋਗ"]
+      },
+      "symptoms": {
+        "en": "Blackening and rotting of the neck node just below the panicle. Entire panicle falls over and turns white (white ear). Severe yield loss from empty grains.",
+        "te": "కంకి కింద మెడ కణుపు నల్లబడి కుళ్ళుతుంది. మొత్తం కంకి వంగిపోయి తెల్లబడుతుంది. గింజలు నిండవు",
+        "hi": "बाली के नीचे गर्दन की गांठ काली होकर सड़ जाती है। पूरी बाली झुककर सफेद हो जाती है। दाने नहीं भरते"
+      },
+      "treatment": {
+        "en": "Tricyclazole 75% WP @ 0.6g/L at panicle initiation stage (most critical). Isoprothiolane 40% EC @ 1.5ml/L as alternative. Timing is everything.",
+        "te": "పూత దశ ప్రారంభంలో ట్రైసైక్లాజోల్ 75% WP @ 0.6g/L (అత్యంత కీలకం). సమయానికి పిచికారీ చాలా ముఖ్యం",
+        "hi": "बाली निकलने की शुरुआत में ट्राइसाइक्लाजोल 75% WP @ 0.6g/L (सबसे जरूरी)। समय पर छिड़काव सबसे महत्वपूर्ण है"
+      },
+      "prevention": {
+        "en": "Resistant varieties (Swarna Sub1, IR-64), avoid excess nitrogen especially at booting, balanced potassium application",
+        "te": "నిరోధక రకాలు, పూత దశలో అధిక నత్రజని వేయకూడదు, పొటాషియం సమతుల్యంగా వేయండి"
+      },
+      "plantvillage_label": null,
+      "local_label": "Rice___Neck_Blast",
+      "ipm_code": "RS-004"
+    },
+    {
+      "id": "maize_common_rust",
+      "scientific": "Puccinia sorghi",
+      "english": "Common Rust",
+      "crop": "maize",
+      "severity": "medium",
+      "season": ["kharif"],
+      "agro_zones": ["karnataka", "andhra_pradesh", "telangana", "madhya_pradesh", "rajasthan", "up"],
+      "regional_names": {
+        "te": ["మొక్కజొన్న తుప్పు తెగులు", "కామన్ రస్ట్", "మొక్కజొన్న గంప తెగులు"],
+        "hi": ["मक्का का सामान्य रतुआ", "कॉमन रस्ट", "मक्का जंग रोग"],
+        "ta": ["மக்காச்சோளம் துரு நோய்"],
+        "mr": ["मका सामान्य गंज रोग"],
+        "kn": ["ಮೆಕ್ಕೆಜೋಳ ಸಾಮಾನ್ಯ ತುಕ್ಕು"],
+        "bn": ["ভুট্টার সাধারণ রাস্ট"],
+        "pa": ["ਮੱਕੀ ਦਾ ਸਾਧਾਰਨ ਰਤੁਆ"]
+      },
+      "symptoms": {
+        "en": "Oval to elongated brick-red/cinnamon-brown powdery pustules on both leaf surfaces. Severe infection causes leaves to dry prematurely.",
+        "te": "ఆకు రెండు వైపులా అండాకార ఇటుక-ఎరుపు పొడి పుటికలు. తీవ్ర సంక్రమణలో ఆకులు ముందుగానే ఎండిపోతాయి",
+        "hi": "पत्ती के दोनों तरफ अंडाकार ईंट-लाल पाउडर जैसे धब्बे। तीव्र संक्रमण में पत्तियाँ समय से पहले सूख जाती हैं"
+      },
+      "treatment": {
+        "en": "Propiconazole 25% EC @ 1ml/L or Tebuconazole 25.9% EC @ 1ml/L at early pustule stage.",
+        "te": "ప్రొపికోనజోల్ 25% EC @ 1ml/L లేదా టెబుకోనజోల్ 25.9% EC @ 1ml/L పుటికలు కనిపించగానే పిచికారీ",
+        "hi": "प्रोपिकोनाजोल 25% EC @ 1ml/L या टेबुकोनाजोल 25.9% EC @ 1ml/L। धब्बे दिखते ही छिड़काव करें"
+      },
+      "prevention": {
+        "en": "Resistant hybrids (DHM-117, NK-6240), early planting to avoid peak spore season, avoid dense planting",
+        "te": "నిరోధక హైబ్రిడ్లు (DHM-117), వేగంగా నాటడం, దట్టంగా నాటకూడదు"
+      },
+      "plantvillage_label": "Corn_(maize)___Common_rust_",
+      "local_label": "Corn___Common_Rust",
+      "ipm_code": "MZ-002"
+    },
+    {
+      "id": "maize_gray_leaf_spot",
+      "scientific": "Cercospora zeae-maydis",
+      "english": "Gray Leaf Spot",
+      "crop": "maize",
+      "severity": "medium",
+      "season": ["kharif"],
+      "agro_zones": ["karnataka", "andhra_pradesh", "telangana", "odisha", "west_bengal"],
+      "regional_names": {
+        "te": ["మొక్కజొన్న బూడిద మచ్చ తెగులు", "గ్రే లీఫ్ స్పాట్"],
+        "hi": ["मक्का का भूरा पत्ती धब्बा", "ग्रे लीफ स्पॉट"],
+        "ta": ["மக்காச்சோளம் சாம்பல் இலை புள்ளி"],
+        "mr": ["मका करड्या पानावरील ठिपके"],
+        "kn": ["ಮೆಕ್ಕೆಜೋಳ ಬೂದು ಎಲೆ ಚುಕ್ಕೆ"],
+        "bn": ["ভুট্টার ধূসর পাতার দাগ"],
+        "pa": ["ਮੱਕੀ ਦਾ ਸਲੇਟੀ ਪੱਤੀ ਧੱਬਾ"]
+      },
+      "symptoms": {
+        "en": "Rectangular to elongated tan/gray lesions with parallel sides bounded by leaf veins. Lesions expand lengthwise. Severe: entire leaf dies (blighting).",
+        "te": "ఆకు నరాల మధ్య దీర్ఘచతురస్రాకార బూడిద-గోధుమ మచ్చలు. తీవ్రంగా ఉంటే మొత్తం ఆకు చనిపోతుంది",
+        "hi": "पत्ती की नसों के बीच आयताकार भूरे-स्लेटी धब्बे। तीव्र संक्रमण में पूरी पत्ती मर जाती है"
+      },
+      "treatment": {
+        "en": "Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1ml/L or Mancozeb 75% WP @ 2.5g/L. Spray at tasseling.",
+        "te": "అజాక్సీస్ట్రోబిన్ + డిఫెనోకోనజోల్ SC @ 1ml/L లేదా మాంకోజెబ్ 75% WP @ 2.5g/L",
+        "hi": "एजोक्सीस्ट्रोबिन + डिफेनोकोनाजोल SC @ 1ml/L या मैन्कोजेब 75% WP @ 2.5g/L का छिड़काव"
+      },
+      "prevention": {
+        "en": "Resistant hybrids, crop rotation (avoid maize after maize), reduce plant debris, balanced nitrogen fertilization",
+        "te": "నిరోధక హైబ్రిడ్లు, పంట మార్పిడి (మళ్ళీ మొక్కజొన్న వేయకూడదు), పంట వ్యర్థాలు తొలగించాలి"
+      },
+      "plantvillage_label": "Corn_(maize)___Gray_leaf_spot",
+      "local_label": "Corn___Gray_Leaf_Spot",
+      "ipm_code": "MZ-003"
+    },
+    {
+      "id": "sugarcane_bacterial_blight",
+      "scientific": "Xanthomonas albilineans",
+      "english": "Bacterial Leaf Scald",
+      "crop": "sugarcane",
+      "severity": "high",
+      "season": ["kharif", "annual"],
+      "agro_zones": ["up", "maharashtra", "karnataka", "andhra_pradesh", "telangana", "tamil_nadu"],
+      "regional_names": {
+        "te": ["చెరకు బాక్టీరియా తెగులు", "ఆకు కాలు తెగులు", "చెరకు ఆకు మాడు"],
+        "hi": ["गन्ने का जीवाणु झुलसन", "पत्ती झुलसन रोग", "लीफ स्कैल्ड"],
+        "ta": ["கரும்பு பாக்டீரியல் கருகல்", "இலை வெதுப்பு நோய்"],
+        "mr": ["ऊस जिवाणू करपा"],
+        "kn": ["ಕಬ್ಬಿನ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಸುಡು"],
+        "bn": ["আখের ব্যাকটেরিয়াল পাতা ঝলসা"],
+        "pa": ["ਗੰਨੇ ਦਾ ਜੀਵਾਣੂ ਝੁਲਸ"]
+      },
+      "symptoms": {
+        "en": "White to cream pencil-line stripes running parallel to leaf veins (leaf scald). Young leaves may appear scalded or wilted. Yellowing of tops in chronic cases.",
+        "te": "ఆకు నరాలకు సమాంతరంగా తెల్లని పెన్సిల్ రేఖలు. లేత ఆకులు వాడిపోతాయి, పై కొమ్మ పసుపు రంగులోకి మారుతుంది",
+        "hi": "पत्ती की नसों के समानांतर सफेद/क्रीम रंग की पतली धारियाँ। युवा पत्तियाँ झुलसी हुई दिखती हैं"
+      },
+      "treatment": {
+        "en": "No effective chemical cure. Remove and destroy infected ratoons immediately. Hot water treatment of seed sets at 50°C for 2 hours.",
+        "te": "రాసాయనిక నివారణ లేదు. సంక్రమించిన మొక్కలు వెంటనే తొలగించండి. విత్తన ముక్కలను 50°C లో 2 గంటలు ఉంచండి",
+        "hi": "प्रभावी रासायनिक उपचार नहीं। संक्रमित पौधे तुरंत नष्ट करें। बीज टुकड़ों को 50°C गर्म पानी में 2 घंटे उपचारित करें"
+      },
+      "prevention": {
+        "en": "Certified disease-free seed sets, resistant varieties (Co-86032, CoJ-64), roguing infected plants early",
+        "te": "ధ్రువీకరించిన రోగ రహిత విత్తన ముక్కలు, నిరోధక రకాలు (Co-86032), ముందుగానే సంక్రమించిన మొక్కలు తొలగించాలి"
+      },
+      "plantvillage_label": null,
+      "local_label": "Sugarcane_Bacterial Blight",
+      "ipm_code": "SC-002"
+    },
+    {
+      "id": "sugarcane_red_rot",
+      "scientific": "Colletotrichum falcatum",
+      "english": "Red Rot",
+      "crop": "sugarcane",
+      "severity": "high",
+      "season": ["kharif", "annual"],
+      "agro_zones": ["up", "maharashtra", "karnataka", "andhra_pradesh", "telangana", "punjab", "haryana"],
+      "regional_names": {
+        "te": ["చెరకు ఎర్ర కుళ్ళు తెగులు", "రెడ్ రాట్"],
+        "hi": ["गन्ने का लाल सड़न रोग", "लाल गलन"],
+        "ta": ["கரும்பு சிவப்பு அழுகல்"],
+        "mr": ["ऊस लाल सड रोग"],
+        "kn": ["ಕಬ್ಬಿನ ಕೆಂಪು ಕೊಳೆ ರೋಗ"],
+        "bn": ["আখের লাল পচা রোগ"],
+        "pa": ["ਗੰਨੇ ਦਾ ਲਾਲ ਸੜਨ ਰੋਗ"]
+      },
+      "symptoms": {
+        "en": "Leaves dry from top, red discoloration of internal stalk tissue with white patches (diagnostic). Alcoholic smell from split stalk.",
+        "te": "ఆకులు పైనుండి ఎండిపోతాయి, కాండం లోపల ఎర్రని రంగు, తెల్లని మచ్చలు. చీకిన కాండం నుండి మద్యం వాసన",
+        "hi": "पत्तियाँ ऊपर से सूखती हैं, तने के अंदर लाल रंग व सफेद धब्बे। चीरे हुए तने से शराब जैसी गंध"
+      },
+      "treatment": {
+        "en": "No effective chemical cure. Destroy infected stools. Treat setts with Carbendazim 0.1% or hot water at 52°C for 30 mins.",
+        "te": "రాసాయనిక నివారణ లేదు. సంక్రమించిన మొక్కలు నాశనం చేయండి. విత్తన ముక్కలు కార్బెండాజిమ్ 0.1% తో శుద్ధి",
+        "hi": "प्रभावी रासायनिक उपचार नहीं। संक्रमित पौधे नष्ट करें। बीज टुकड़ों को कार्बेंडाजिम 0.1% से उपचारित करें"
+      },
+      "prevention": {
+        "en": "Resistant varieties (Co-86032, Co-0238), disease-free seed material, crop rotation",
+        "te": "నిరోధక రకాలు (Co-86032), రోగ రహిత విత్తన సామగ్రి"
+      },
+      "plantvillage_label": null,
+      "local_label": "Sugarcane_Red Rot",
+      "ipm_code": "SC-001"
+    }
+  ],
+  "pests": [
+    {
+      "id": "whitefly",
+      "scientific": "Bemisia tabaci",
+      "english": "Whitefly",
+      "crops": ["tomato", "cotton", "chilli", "okra"],
+      "regional_names": {
+        "te": ["తెల్ల దోమ", "తెల్లటి పురుగు"],
+        "hi": ["सफेद मक्खी", "श्वेत मक्खी"],
+        "ta": ["வெள்ளை ஈ", "வெள்ளை பூச்சி"],
+        "mr": ["पांढरी माशी"],
+        "kn": ["ಬಿಳಿ ನೊಣ"],
+        "bn": ["সাদা মাছি"],
+        "pa": ["ਚਿੱਟੀ ਮੱਖੀ"]
+      }
+    },
+    {
+      "id": "aphids",
+      "scientific": "Aphis gossypii / Myzus persicae",
+      "english": "Aphids / Plant Lice",
+      "crops": ["cotton", "chilli", "mustard", "potato", "wheat"],
+      "regional_names": {
+        "te": ["పేను పురుగు", "ఆకు పురుగు", "చిన్న పురుగులు"],
+        "hi": ["माहू", "चेपा", "एफिड"],
+        "ta": ["பேன் பூச்சி", "இலை பேன்"],
+        "mr": ["मावा", "पांढरी उवा"],
+        "kn": ["ಅಲ್ಲಿ ಹುಳ", "ಹೇನು"],
+        "bn": ["জাব পোকা", "মাহু পোকা"],
+        "pa": ["ਤੇਲਾ", "ਮਾਹੂ"]
+      }
+    },
+    {
+      "id": "fall_armyworm",
+      "scientific": "Spodoptera frugiperda",
+      "english": "Fall Armyworm",
+      "crops": ["maize", "sugarcane", "sorghum"],
+      "regional_names": {
+        "te": ["సైనిక పురుగు", "ఫాల్ ఆర్మీవార్మ్", "మొక్కజొన్న పురుగు"],
+        "hi": ["फॉल आर्मीवर्म", "सैनिक कीट", "अमेरिकी सूंड"],
+        "ta": ["வீழ்ச்சி படை புழு", "நவீன படை புழு"],
+        "mr": ["फॉल आर्मीवर्म", "नवीन अळी"],
+        "kn": ["ಫಾಲ್ ಆರ್ಮಿವರ್ಮ್", "ಸೈನ್ಯ ಹುಳ"],
+        "bn": ["ফল আর্মিওয়ার্ম"],
+        "pa": ["ਫਾਲ ਆਰਮੀਵਰਮ"]
+      }
+    }
+  ]
+}

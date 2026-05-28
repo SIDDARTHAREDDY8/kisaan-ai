@@ -1,0 +1,82 @@
+[
+  {
+    "scheme_name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "category": "Income Support",
+    "benefit": "₹6,000 per year in 3 installments of ₹2,000 directly to bank account",
+    "eligibility": "Small and marginal farmers with cultivable land up to 2 hectares. Must be Indian citizen. Excludes institutional landholders, government employees with income >₹10,000/month, income taxpayers, doctors, engineers, lawyers, CAs.",
+    "documents": "Aadhaar card, land records (Khasra/Khatauni), bank account linked to Aadhaar, mobile number",
+    "how_to_apply": "Visit nearest Common Service Centre (CSC) or pmkisan.gov.in. Village level workers (patwari) can also register. Existing beneficiaries auto-renewed annually.",
+    "contact": "PM-KISAN helpline: 155261 / 1800115526 (toll-free)",
+    "source": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "scheme_name": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+    "category": "Crop Insurance",
+    "benefit": "Coverage for crop losses due to natural calamities, pests, and diseases. Premium: 1.5% for Rabi, 2% for Kharif, 5% for commercial/horticulture crops. Government pays rest.",
+    "eligibility": "All farmers (loanee and non-loanee) growing notified crops. Must apply before sowing season cutoff date (usually 15 days before sowing).",
+    "documents": "Aadhaar, land records, bank account, sown crop declaration, village/survey number",
+    "how_to_apply": "Through bank (for loanee farmers — auto-enrolled), CSC centers, insurance company agents, or pmfby.gov.in portal",
+    "contact": "National helpline: 14447. State nodal officers available district-wise.",
+    "source": "Ministry of Agriculture & Farmers Welfare"
+  },
+  {
+    "scheme_name": "Soil Health Card Scheme (SHC)",
+    "category": "Soil Health",
+    "benefit": "Free soil testing every 2 years. Card showing 12 soil parameters (NPK, pH, micronutrients, organic carbon). Crop-wise fertilizer recommendations.",
+    "eligibility": "All farmers in India. One card per holding every 2 years. No income restriction.",
+    "documents": "Land ownership proof or lease agreement, Aadhaar, contact details",
+    "how_to_apply": "Contact nearest Krishi Vigyan Kendra (KVK), Agriculture Department office, or soil testing laboratory. Soil Health Card portal: soilhealth.dac.gov.in",
+    "contact": "State Agriculture Department. Helpline varies by state.",
+    "source": "Department of Agriculture & Cooperation"
+  },
+  {
+    "scheme_name": "eNAM (Electronic National Agriculture Market)",
+    "category": "Market Access",
+    "benefit": "Online platform connecting farmers to 1,000+ mandis across India. Transparent price discovery, reduced middlemen, online payment. Better price realization reported at 10-15% above local mandi.",
+    "eligibility": "Any farmer who wishes to sell produce. Farmers must be registered with local APMC mandi.",
+    "documents": "Aadhaar, bank account, mandi registration, mobile number",
+    "how_to_apply": "Register at enam.gov.in or through local APMC mandi office. Mobile app available: eNAM.",
+    "contact": "eNAM helpdesk: 1800-270-0224 (toll-free, Mon-Sat 9AM-6PM)",
+    "source": "Small Farmers Agribusiness Consortium (SFAC)"
+  },
+  {
+    "scheme_name": "KCC (Kisan Credit Card)",
+    "category": "Credit",
+    "benefit": "Short-term credit up to ₹3 lakh at 7% interest (effective 4% after 3% interest subvention). Covers crop cultivation, post-harvest expenses, maintenance of allied activities.",
+    "eligibility": "All farmers — individual, joint borrowers, tenant farmers, oral lessees, sharecroppers. Also applicable to SHG and JLG farmers.",
+    "documents": "Land records, identity proof (Aadhaar/voter ID), address proof, passport photo",
+    "how_to_apply": "Apply at any nationalized bank, cooperative bank, or regional rural bank. NABARD oversees the scheme.",
+    "contact": "Nearest bank branch. NABARD helpline: 022-26539895",
+    "source": "NABARD / Ministry of Agriculture"
+  },
+  {
+    "scheme_name": "RKVY (Rashtriya Krishi Vikas Yojana)",
+    "category": "Infrastructure",
+    "benefit": "Funding for farm mechanization, irrigation, organic farming, horticulture development, livestock, fisheries. State governments get grants for district agriculture plans.",
+    "eligibility": "State governments propose projects; individual farmers benefit through state implementation. No direct application by farmers — district agriculture officers submit plans.",
+    "documents": "Depends on state scheme under RKVY. Typically land records, Aadhaar.",
+    "how_to_apply": "Contact district Agriculture Officer or Block Development Office. Many states run sub-schemes under RKVY for subsidy on tractors, drip irrigation, greenhouse.",
+    "contact": "District Agriculture Officer / State Agriculture Department",
+    "source": "Department of Agriculture & Cooperation"
+  },
+  {
+    "scheme_name": "PMKSY (Pradhan Mantri Krishi Sinchai Yojana)",
+    "category": "Irrigation",
+    "benefit": "Subsidy for micro-irrigation (drip and sprinkler): 45-55% for small/marginal farmers, 35-45% for others. Increases water use efficiency by 40-50%.",
+    "eligibility": "Farmers with own or leased land. Small and marginal farmers get higher subsidy rates.",
+    "documents": "Land records, Aadhaar, bank account, crop details",
+    "how_to_apply": "Apply through state Agriculture or Horticulture Department. Portal: pmksy.gov.in",
+    "contact": "State nodal agencies. Helpline: 1800-180-1551",
+    "source": "Ministry of Jal Shakti / Agriculture"
+  },
+  {
+    "scheme_name": "MIDH (Mission for Integrated Development of Horticulture)",
+    "category": "Horticulture",
+    "benefit": "50-75% subsidy on establishment of orchards, polyhouses, shade nets, cold storage, packhouses, processing units. Technology missions for fruits, vegetables, floriculture.",
+    "eligibility": "Farmers growing horticulture crops (fruits, vegetables, flowers, spices, mushrooms). Priority to small and marginal farmers.",
+    "documents": "Land ownership proof, bank account, crop plan, Aadhaar",
+    "how_to_apply": "State Horticulture Mission office in each district. Portal: midh.gov.in",
+    "contact": "State Horticulture Mission. Helpline varies by state.",
+    "source": "Ministry of Agriculture & Farmers Welfare"
+  }
+]
