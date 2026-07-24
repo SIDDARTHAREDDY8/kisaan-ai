@@ -2,7 +2,7 @@
 
 **Autonomous multimodal farm intelligence for Indian smallholder farmers.**
 
-Kisaan AI is a production-grade AI platform that gives farmers instant access to crop disease diagnosis, live mandi prices, government scheme guidance, soil health analysis, and multilingual voice advisory — all through a web app or WhatsApp.
+Kisaan AI is a production-grade AI platform that gives farmers instant access to crop disease diagnosis, live mandi prices, government scheme guidance, soil health analysis, and multilingual voice advisory — all through WhatsApp.
 
 ---
 
