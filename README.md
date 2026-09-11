@@ -2,7 +2,7 @@
 
 **Autonomous multimodal farm intelligence for Indian smallholder farmers.**
 
-Kisaan AI is a production-grade AI platform that gives farmers instant access to crop disease diagnosis, live mandi prices, government scheme guidance, soil health analysis, and multilingual voice advisory — all through WhatsApp.
+Kisaan AI is a full-stack AI platform that gives farmers instant access to crop disease diagnosis, live mandi prices, government scheme guidance, soil health analysis, and multilingual voice advisory — all through WhatsApp.
 
 ---
 
@@ -10,7 +10,7 @@ Kisaan AI is a production-grade AI platform that gives farmers instant access to
 
 | Feature | How it works |
 |---|---|
-| **Crop Disease Diagnosis** | Upload a photo → MobileNetV2 classifies 38 diseases across 14 crops → Claude generates a treatment plan |
+| **Crop Disease Diagnosis** | Upload a photo → MobileNetV2 (PlantVillage fine-tune) classifies crop diseases → confidence-gated treatment plan via Claude |
 | **Mandi Price Intelligence** | Live Agmarknet prices + Claude sell-window recommendation (sell now / wait / split sell) |
 | **Govt Scheme Navigator** | RAG over PM-KISAN, PMFBY, KCC, eNAM, PMKSY knowledge base → eligibility check + step-by-step guidance |
 | **Soil Health Analysis** | Enter NPK / pH / organic carbon readings → tabular classifier scores soil → Claude prescribes amendments with dosages |
